@@ -1,0 +1,20 @@
+{
+    "projectName": "broddin",
+    "projectPath": "/Users/timbroddin/Sites/broddin",
+    "defaultEditor": "atom",
+    "frontendHandler": {
+        "javascript": "/Users/timbroddin/.nvm/versions/node/v10.1.0/lib/node_modules/@aws-amplify/cli/node_modules/amplify-frontend-javascript"
+    },
+    "javascript": {
+        "framework": "react",
+        "config": {
+            "SourceDir": "src",
+            "DistributionDir": "public",
+            "BuildCommand": "npm run-script build",
+            "StartCommand": "npm run-script start"
+        }
+    },
+    "providers": {
+        "awscloudformation": "/Users/timbroddin/.nvm/versions/node/v10.1.0/lib/node_modules/@aws-amplify/cli/node_modules/amplify-provider-awscloudformation"
+    }
+}

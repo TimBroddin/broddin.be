@@ -1,0 +1,35 @@
+{
+	"providers": {
+		"awscloudformation": {
+			"AuthRoleName": "broddin-20181220114129-authRole",
+			"UnauthRoleArn": "arn:aws:iam::104023710095:role/broddin-20181220114129-unauthRole",
+			"AuthRoleArn": "arn:aws:iam::104023710095:role/broddin-20181220114129-authRole",
+			"Region": "eu-west-1",
+			"DeploymentBucketName": "broddin-20181220114129-deployment",
+			"UnauthRoleName": "broddin-20181220114129-unauthRole",
+			"StackName": "broddin-20181220114129",
+			"StackId": "arn:aws:cloudformation:eu-west-1:104023710095:stack/broddin-20181220114129/cf66c6d0-0443-11e9-8bcb-50a686333cc5"
+		}
+	},
+	"hosting": {
+		"S3AndCloudFront": {
+			"service": "S3AndCloudFront",
+			"providerPlugin": "awscloudformation",
+			"providerMetadata": {
+				"s3TemplateURL": "https://s3.amazonaws.com/broddin-20181220114129-deployment/amplify-cfn-templates/hosting/template.json",
+				"logicalId": "hostingS3AndCloudFront"
+			},
+			"lastPushTimeStamp": "2018-12-20T11:44:44.000Z",
+			"output": {
+				"CloudFrontSecureURL": "https://d1ysashno7q5wz.cloudfront.net",
+				"S3BucketSecureURL": "https://broddin-20181220122531-hostingbucket.s3.amazonaws.com",
+				"WebsiteURL": "http://broddin-20181220122531-hostingbucket.s3-website-eu-west-1.amazonaws.com",
+				"CloudFrontDistributionID": "E3W25FZVXFKT0U",
+				"Region": "eu-west-1",
+				"HostingBucketName": "broddin-20181220122531-hostingbucket",
+				"CloudFrontDomainName": "d1ysashno7q5wz.cloudfront.net"
+			},
+			"lastPushDirHash": "EKr2L20RmYF5hDJBRfTgf8RD9zc="
+		}
+	}
+}
